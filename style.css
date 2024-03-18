@@ -1,0 +1,52 @@
+body {
+  background-image: url(https://www.pcgamesn.com/wp-content/sites/pcgamesn/2019/10/best-dragon-games-1-550x309.jpg);
+  display: flex;
+  justify-content: center; /* Align content horizontally */
+  align-items: center; /* Align content vertically */
+  height: 100vh; /* Ensure body takes up full viewport height */
+  margin: 10; /* Remove default margin */
+
+  }
+  
+  #text {
+    background-color: black;
+    color: white;
+    padding: 10px;
+  }
+  
+  #game {
+    max-width: 500px;
+    max-height: 400px;
+    background-color: lightgray;
+    color: white;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  #controls {
+    cursor: pointer;
+    border: 1px black solid;
+    padding: 5px;
+    
+  }
+  
+  #stats {
+    border: 1px black solid;
+    color: black;
+    padding: 5px;
+  }
+  
+  #monsterStats {
+    display: none;
+    border: 1px black solid;
+    color: white;
+    padding: 5px;
+    background-color: red;
+  }
+  
+  .stat {
+    padding-right: 10px;
+  }
+
+
+  
